@@ -1,0 +1,249 @@
+root {
+    Primario: white;
+    Secundario: #4FE9DC;
+    Terciario: #EEB0FF;
+    Cuarto: #8375FF;
+    Quinto: #EB36FF;
+    Sexto: #00A6FF;
+}
+
+.cabecera{
+    background-color: #4FE9DC; 
+    position: fixed;
+    top: 0;
+    Left: 0;
+    width: 100%;
+    transition: top 0.3s;
+}
+
+.logo{
+    position: fixed;
+    align-self: flex-start;
+    display: inline-block;
+}
+
+.titulo{
+    display: inline-block;
+    margin-left: 10%;
+}
+
+.titulo h3{
+    color: white;
+    font-family: Roboto, cursive;
+}
+
+.img{
+    z-index: 900;
+    margin-top: 8px;
+    margin-left: 20px;
+    box-shadow: inset;
+}
+
+.menu{
+    display:inline-flex;
+    text-align: center;
+    float: right;
+}
+
+.menu > ul {
+    float: right;
+    display: inline-flex;
+    text-decoration: none;
+    right: 2;
+}
+
+.menu > ul > li{
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu > ul > li > a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.menu > ul > li > a:hover{
+    color: #a8e1ff;
+    padding: 25px;
+    background-color: #EB36FF;
+    border-radius: 5px;
+}
+
+.inicio{
+    display: block;
+    position: inherit;
+    width: 100%;
+    height: 450%;
+    background-color: black;
+    background: url("../Media/Imagenes/carretera.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    width: 20%;
+    padding: 25px;
+    margin-left: 5%;
+    background-color: rgba(220,75,105,0.7);
+
+}
+
+.tbanner{
+    font-size: 32px;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px #EB36FF;
+}
+
+.pbanner{
+    font-weight: bolder;
+    font-size: italic;
+    font-family: cursive;
+    font-size: 20px;
+    color:#8375FF;
+    text-shadow: 2px 2px red;
+}
+
+.elregistro{
+    color: white
+    text-decoration: none;
+    padding: 5px !important;
+    border-radius: 8px !important;
+    float: right;
+    font-size: 18px;
+}
+
+.empresa{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+}
+
+.promo{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.promo h4{
+    text-align: center;
+    font-family: italic, cursive;
+    font-size: 22px; 
+}
+
+.conocenos{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+}
+
+.buses{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+}
+
+.rutas{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+}
+
+.reserva{
+    width: 21%;
+    margin: 0, 4px;
+    padding-left: 2%;
+    text-align: center;
+    text-decoration: none;
+    font-family: Roboto, cursive;
+    background-image: url("../Media/Imagenes/invitacion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reserva:hover{
+    transform: rotate(350deg);
+    transform-origin: right bottom 2;
+    font-size: 30px;
+    text-shadow: 2px 2px #EB36FF;
+    text-decoration: none;
+}
+
+.reserva a{
+    text-decoration: none;
+    color: #8375FF;
+}
+
+.alianza{
+    background-image: url("../Media/Imagenes/turismo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.alianza h2{
+    color: #8375FF;
+    text-shadow: 2px 3px #4FE9DC;
+    font-family: Roboto, cursive;
+}
+
+.falianza{
+    width: 28%;
+    float: right;
+    background-color: rgba(73,155,234,0.7);
+    padding: 25px;
+    box-shadow: #EB36FF 5px 5px 5px 5px;
+    font-family: tahoma,cursive;
+    font-size: 25px;
+    color: #EEB0FF;
+    text-shadow: 2px 3px #00A6FF0;
+}
+
+.coda{
+    display: inline-flex;
+    width: 100%;
+}
+
+.preguntas{
+    font-family: Roboto, cursive;
+    width: 50%;
+    height: 400px;
+    color: #8375FF;
+    padding-left: 30px;
+    padding-top: 20px;
+    margin-left: 10%;
+}
+
+.preguntas span{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.preguntas li > a{
+    text-decoration-line: none;
+    color: #EB36FF;
+}
+
+.contacto{
+    flex: left;
+    margin-right: 5%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pie{
+    text-align: center;
+    color: #EB36FF;
+}
+
+
+
+
+
